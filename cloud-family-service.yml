@@ -1,0 +1,18 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
+---
+
+spring:
+  profiles: dev
+
+api:
+  title: Family Service
+  description: Cloud Family Service 
+  version: 1.0.0-BETA
+  contactname: Jose Oliveros
+  contacturl: https://nxs.com.co/
+  contactemail: jomiol91@gmail.com
+  basepackage: com.cloud.family.rest.controller
